@@ -10,6 +10,9 @@ import DevTools from './devTools/DevTools';
 import routes         from './routes';
 import configureStore from './store/configureStore';
 
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/toastr/build/toastr.min.css';
+
 
 const store = configureStore();
 const history = syncHistoryWithStore(hashHistory, store);
